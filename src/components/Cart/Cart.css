@@ -1,0 +1,53 @@
+.cart {
+    background-color: green;
+    margin: 0 20px;
+    color: ivory;
+    width: 16%;
+    height: 450px;
+    position: fixed;
+    right: 0px;
+}
+
+.cart h1 {
+    text-align: center;
+}
+
+.cart-items {
+    margin: 0 10px;
+}
+
+.cart-items button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-weight: 700;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid teal;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cart-items button:hover {
+    background-color: teal;
+    color: black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:last-child {
+    background-color: lightcoral;
+    font-weight: 700;
+    color: #000;
+}

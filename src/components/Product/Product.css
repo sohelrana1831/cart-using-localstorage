@@ -1,0 +1,26 @@
+.product {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-color: teal;
+    text-transform: capitalize;
+}
+
+.product button {
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border: 1px solid teal;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    color: black;
+}
+
+.icon-color {
+    color: gold;
+    margin: 10px 0;
+}
